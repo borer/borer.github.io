@@ -33,83 +33,53 @@
 
 <body id="page-top" class="index">
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Bogdan Gochev</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>                    
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
     <!-- Header -->
     <header id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive img-circle" src="img/profile.jpg" alt="">
+                    <!-- <img class="img-responsive img-circle" src="img/profile.jpg" alt=""> -->
                     <div class="intro-text">
-                        <span class="name">Bogdan Gochev</span>
-                        <hr class="star-light">
-                        <span class="skills">Software Developer</span>
+                        <span class="name">
+                            <span style="color: #ff6347;">B</span><span style="color: #ff7f50;">o</span><span style="color: #f0e68c;">g</span><span style="color: #98fb98;">d</span><span style="color: #7fffd4;">a</span><span style="color: #6495ed;">n</span>
+
+                            <span style="color: #ff6347;">G</span><span style="color: #ff7f50;">o</span><span style="color: #f0e68c;">c</span><span style="color: #98fb98;">h</span><span style="color: #7fffd4;">e</span><span style="color: #6495ed;">v</span>
+                        </span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Products List Section -->
+    <section id="products">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2>products : </h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="col-lg-12 products-item">
+                    <a href="#productsModal1" class="products-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <p>Rainy Night Game</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/rn.png" class="img-responsive" alt="">
+                        <img src="img/products/rn.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 products-item">
+                    <a href="#productsModal2" class="products-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <p>Flat Ligting Unity Asset</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/fl.png" class="img-responsive" alt="">
+                        <img src="img/products/fl.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
@@ -121,8 +91,8 @@
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-offset-4 col-md-4">
-                        <h3>Contact</h3>
+                    <div class="footer-col col-md-offset-3 col-md-6">
+                        <h2>say hello!</h2>
                         <ul class="list-inline">
                             <li>
                                 <a href="https://twitter.com/BogdanGochev" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
@@ -134,6 +104,8 @@
                                 <a href="mailto:bogdan.dgochev@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope-o"></i></a>
                             </li>
                         </ul>
+
+                        <div class="copyright">COPYRIGHT © 2016 BOGDAN GOCHEV. ALL RIGHTS RESERVED</div>
                     </div>
                 </div>
             </div>
@@ -147,8 +119,8 @@
         </a>
     </div>
 
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- products Modals -->
+    <div class="products-modal modal fade" id="productsModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -162,7 +134,7 @@
                         <div class="modal-body">
                             <h2>Rainy Night Game</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/rn.png" class="img-responsive img-centered" alt="">
+                            <img src="img/products/rn.png" class="img-responsive img-centered" alt="">
                             <p>A beautiful and atmospheric game</p>
                             <a href="http://rainynightgame.com" class="btn-lg btn-success">More</a>
                             <ul class="list-inline item-details">
@@ -182,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="products-modal modal fade" id="productsModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -196,7 +168,7 @@
                         <div class="modal-body">
                             <h2>Flat Lighting</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/fl.png" class="img-responsive img-centered" alt="">
+                            <img src="img/products/fl.png" class="img-responsive img-centered" alt="">
                             <p>
                                 Flat Lighting is an asset package which includes a complete lighting system designed for the creation of flat atmospheric graphic styles. It is heavily optimized for performance and works on shader models 2.0 and above.
                                 <br>
