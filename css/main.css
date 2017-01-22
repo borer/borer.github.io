@@ -80,18 +80,22 @@ header img {
   display: block;
   margin: 0 auto 20px;
 }
+
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2em;
+  /*font-weight: 800;*/
+  font-size: 50px;
+  letter-spacing: -4px;
+  word-spacing: 30px;
 }
 header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   header .intro-text .name {
     font-size: 3em;
   }
@@ -239,6 +243,7 @@ section.success {
 #products * {
   z-index: 2;
 }
+
 @media (min-width: 767px) {
   #products .products-item {
     margin: 0 0 30px;
@@ -510,4 +515,8 @@ fieldset[disabled] .btn-success.active {
 .products-modal .modal-backdrop {
   opacity: 0;
   display: none;
+}
+
+.products-modal .product-desc {
+  text-align: left;
 }
