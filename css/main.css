@@ -73,7 +73,7 @@ header {
   color: white;
 }
 header .container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 header img {
@@ -192,7 +192,7 @@ section.success {
 }
 @media (max-width: 767px) {
   section {
-    padding: 75px 0;
+    padding: 50px 0;
   }
   section.first {
     padding-top: 75px;
@@ -200,7 +200,7 @@ section.success {
 }
 #products .products-item {
   margin: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   right: 0;
 }
 #products .products-item .products-link {
